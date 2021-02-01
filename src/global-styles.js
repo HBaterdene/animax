@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyles = createGlobalStyle`
    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-   input:focus, textarea:focus, select:focus, button:focus{
+   input:focus, textarea:focus, select:focus, button: focus{
         outline: none;
     }
    ::placeholder {
